@@ -162,10 +162,9 @@
         </h2>
         <h3 class="section-subheading text-muted">
           <p>
-            Explore the lingual characteristics of the VoxBlink2! It's noted that 
-            the language labels are derived from the language detection tool of the 
-            video tags, so maybe they are not very accurate. Besides, there are actually some
-            missing tags of videos, so the lingual informations can not be predicted.
+            Explore the lingual characteristics of the VoxBlink2! 
+            It's noted that the language labels are derived from the language detection tool of the video tags, 
+            so they are not very accurate, just for reference. 
           </p>
         </h3>
       </div>
@@ -491,10 +490,12 @@
           <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           2. In order to better handle multimodal processing, we provide <strong>transcription annotations</strong> implemented by <a href="https://github.com/openai/whisper">Whisper-medium</a>. 
+          We will release the ASR predicted transcript with Whisper Large model in the near future.
           <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          3. Different size of speaker models can be downloaded for evaluation, pre-training or leveraging for speaker-related tasks.
-          The largest model performs <strong>0.228%</strong> EER on the Vox1-O evaluation set without any post-processing.
+          3. Different size of speaker <a href="https://drive.google.com/drive/folders/19uUmlnSjmFhffO7vHXO7upZJI77OOmrP">models</a> can be downloaded for evaluation via , pre-training or leveraging for speaker-related tasks.
+          The largest model performs <strong>0.228%</strong> EER on the Vox1-O evaluation set without any post-processing. 
+          When incorporating Score-Norm and QMF, <strong>0.17%</strong> EER and <strong>0.006</strong> minDCF(ptar=0.01) have been achieved.
           <br>
         </div>
       </div>
@@ -802,9 +803,9 @@
 <!--     -->
     <div class="row align-items-center">
       <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; DKU and CMCC</span
-        >
+        <!-- <span class="copyright"
+          >Copyright &copy; DKU</span
+        > -->
       </div>
       
       <!-- Legal -->
